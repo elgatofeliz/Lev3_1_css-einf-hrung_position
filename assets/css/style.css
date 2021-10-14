@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@400;700&display=swap');
+
+/* font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    max-width: 1440px;
+}
+
+/*===================
+        HEADER
+===================*/      
+
+header{
+    background: #1d2025;
+    border-bottom: 1px solid #9d9f9f;
+}
+
+header>h1{
+    font-family: 'Monoton', cursive;
+    color: #9d9f9f;
+    display: inline-block;
+    padding: 1vh;
+    padding-left: 5vw;
+}
+
+header>a{
+    color: #9d9f9f;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header>a:hover{
+    color:#f4f7f8;
+}
+
+header>a:nth-of-type(1){
+    padding-left: 5vw;
+}
+
+header>a:nth-of-type(2){
+    padding-right: 9vw;
+}
+
+header>ul{
+    display: inline-block;
+    padding-left: 15vw;
+}
+
+header>ul>li{
+    display: inline-block;
+    padding: 0px 4vw;
+
+}
+
+header>ul>li>a{
+    color: #9d9f9f;
+    text-decoration: none;
+}
+
+header>ul>li>a:hover{
+    color:#f4f7f8;
+}
+
+/*===================
+        MAIN
+===================*/        
+
+main{
+    padding-top: 5vh;
+    background:#1d2025;
+    text-align: right;
+    position: relative;
+}
+
+main>h1{
+    display: inline-block;
+    color: #f4f7f8;
+    font-size: 56px;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+}
+
+main>p{
+    display: inline-block;
+    position: absolute;
+    top: 45vh;
+    left:15vw;
+    color: #AC8059;
+}
+
+span{
+    letter-spacing: -3px;
+}
+
+main>div{
+    height: 77vh;
+    width: 17vw;
+    display: inline-block;
+    overflow: hidden;
+    text-align: right;
+    margin-left: 3vw;
+    object-fit: contain;
+    padding-bottom: 1vh;
+}
+
+/*===================
+        FOOTER
+===================*/ 
+
+footer{
+    background:#1d2025;
+    position: relative;
+    padding-bottom: 5vh;
+}
+
+footer>ul{
+    list-style:none;
+    padding-left: 2vw;
+}
+
+footer>ul>li{
+    display: inline-block;
+    padding: 1%;
+}
+
+footer>ul>li>i{
+    color: #f4f7f8;
+}
+
+footer>div>i{
+    color: #f4f7f8;
+}
+
+footer>div{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #AC8059;
+    border-radius: 50%;
+    text-align: right;
+}
+
+footer>div:nth-of-type(2){
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+}
+
+footer>div:nth-of-type(1){
+    position: absolute;
+    top: 2vh;
+    right: 10vw;
+}
